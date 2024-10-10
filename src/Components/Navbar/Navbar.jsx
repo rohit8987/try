@@ -14,7 +14,7 @@ const Navbar = () => {
 
  <>
    <nav>
-        <div className="container flex items-center justify-between py-8">
+        <div className="container flex items-center justify-between p-5 py-8 ">
             <div className="flex items-center gap-2 text-2xl font-bold uppercase ">
             <CiDumbbell/>
             <p>Coders</p>
@@ -45,7 +45,7 @@ const Navbar = () => {
                         </div>
         </div>
     </nav>
-    <ResponsiveMenu/>
+    <ResponsiveMenu open={open}/>
     </>
   )
 }
